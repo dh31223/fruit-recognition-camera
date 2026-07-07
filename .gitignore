@@ -1,0 +1,38 @@
+# 数据集
+data/
+
+# 模型文件（权重太大，不上传 git）
+models/
+
+# 文档
+MarkDown/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 部署（板子上的临时文件）
+deploy/*.log

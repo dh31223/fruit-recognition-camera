@@ -7,6 +7,9 @@ models/
 # 文档
 MarkDown/
 
+# 图片
+img/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -36,3 +39,5 @@ Thumbs.db
 
 # 部署（板子上的临时文件）
 deploy/*.log
+
+

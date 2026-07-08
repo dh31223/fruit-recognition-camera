@@ -34,7 +34,7 @@ gpu = "cuda" if torch.cuda.is_available() else "cpu"
 # Train Para
 
 
-first_step_epochs = 20
+first_step_epochs = 30
 first_step_learn_rate = 1e-3
 first_step_patience = 3
 

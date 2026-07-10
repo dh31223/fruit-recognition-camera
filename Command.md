@@ -1,1 +1,0 @@
-cheese -d /dev/video2

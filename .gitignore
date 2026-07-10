@@ -40,4 +40,5 @@ Thumbs.db
 # 部署（板子上的临时文件）
 deploy/*.log
 
-
+# MCP文件
+.playwright-mcp/

@@ -3,6 +3,9 @@ data/
 
 # 模型文件（权重太大，不上传 git）
 models/
+*.pth
+*.onnx
+*.onnx.data
 
 # 文档
 MarkDown/
@@ -37,8 +40,42 @@ env/
 .DS_Store
 Thumbs.db
 
-# 部署（板子上的临时文件）
-deploy/*.log
-
-# MCP文件
+# MCP/Claude 内部文件
 .playwright-mcp/
+.claude/
+
+# Word文件
+Word/
+
+# === NPU 转换相关 ===
+# AI SDK（第三方，体积大）
+ai-sdk/
+ai-sdk.tar.gz
+ai-sdk.zip
+
+# ACUITY 生成的临时文件
+npu_convert/wksp_ovx/
+npu_convert/wksp_nbg/
+npu_convert/resnet50
+npu_convert/resnet50.json
+npu_convert/resnet50.data
+npu_convert/resnet50_int16.quantize
+npu_convert/resnet50_inputmeta.yml
+npu_convert/calib/
+npu_convert/dataset.txt
+npu_convert/entropy.txt
+npu_convert/channel_mean_value.txt
+
+# 部署目录（含大体积模型数据）
+orangepi_deploy/
+
+# MCP 浏览器截图缓存
+op4a01-guide.md
+op4a02-*.md
+op4a03-*.md
+op4a04-*.md
+
+npu_convert1.0/
+
+# 构建脚本
+build_article.py
